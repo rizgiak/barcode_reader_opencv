@@ -11,3 +11,5 @@ include_directories(${ZBAR_INCLUDE_DIR})
 
 add_executable (barcode_reader main.cpp)
 target_link_libraries (barcode_reader ${OpenCV_LIBRARIES} ${ZBAR_LIBRARIES} PkgConfig::ZBar)
+
+file (COPY ${CMAKE_CURRENT_SOURCE_DIR}/sample-barcode.jpeg DESTINATION ${CMAKE_CURRENT_BINARY_DIR} FILE_PERMISSIONS OWNER_READ)

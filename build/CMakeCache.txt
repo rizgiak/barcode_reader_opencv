@@ -171,9 +171,6 @@ OpenCV_DIR:PATH=/usr/local/share/OpenCV
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
-//The directory containing a CMake configuration file for ZBar0.
-ZBar0_DIR:PATH=ZBar0_DIR-NOTFOUND
-
 //Value Computed by CMake
 barcode_reader_opencv_BINARY_DIR:STATIC=/home/pi/barcode-reader-opencv/build
 

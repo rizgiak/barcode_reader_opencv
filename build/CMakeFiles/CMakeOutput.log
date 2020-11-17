@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/pi/barcode-reader-opencv
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9c0cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c0cf.dir/build.make CMakeFiles/cmTC_9c0cf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_735cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_735cd.dir/build.make CMakeFiles/cmTC_735cd.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9c0cf.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_9c0cf.dir/testCCompiler.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_9c0cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c0cf.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9c0cf.dir/testCCompiler.c.o  -o cmTC_9c0cf -rdynamic 
+Building C object CMakeFiles/cmTC_735cd.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_735cd.dir/testCCompiler.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_735cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_735cd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_735cd.dir/testCCompiler.c.o  -o cmTC_735cd -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77099/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77099.dir/build.make CMakeFiles/cmTC_77099.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e2924/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2924.dir/build.make CMakeFiles/cmTC_e2924.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_77099
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77099.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o  -o cmTC_77099 -rdynamic  
+Building C object CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e2924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2924.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o  -o cmTC_e2924 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77099' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYBZSAA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_77099 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77099' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2924' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgsm7qU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_e2924 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2924' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_77099/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_77099.dir/build.make CMakeFiles/cmTC_77099.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e2924/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e2924.dir/build.make CMakeFiles/cmTC_e2924.dir/build]
   ignore line: [make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_77099]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77099.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o  -o cmTC_77099 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e2924]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2924.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o  -o cmTC_e2924 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77099' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYBZSAA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_77099 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2924' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgsm7qU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_e2924 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccYBZSAA.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgsm7qU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_77099] ==> ignore
+    arg [cmTC_e2924] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o] ==> ignore
@@ -118,7 +118,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_77099.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e2924.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,14 +149,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2062/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2062.dir/build.make CMakeFiles/cmTC_f2062.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_70873/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70873.dir/build.make CMakeFiles/cmTC_70873.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2062.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_f2062.dir/feature_tests.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f2062
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2062.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_f2062.dir/feature_tests.c.o  -o cmTC_f2062 -rdynamic 
+Building C object CMakeFiles/cmTC_70873.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_70873.dir/feature_tests.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_70873
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70873.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_70873.dir/feature_tests.c.o  -o cmTC_70873 -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
@@ -169,14 +169,14 @@ make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3fbde/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3fbde.dir/build.make CMakeFiles/cmTC_3fbde.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_90ce1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90ce1.dir/build.make CMakeFiles/cmTC_90ce1.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3fbde.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_3fbde.dir/feature_tests.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3fbde
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fbde.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3fbde.dir/feature_tests.c.o  -o cmTC_3fbde -rdynamic 
+Building C object CMakeFiles/cmTC_90ce1.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_90ce1.dir/feature_tests.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_90ce1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ce1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_90ce1.dir/feature_tests.c.o  -o cmTC_90ce1 -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
@@ -189,14 +189,14 @@ make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2682/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2682.dir/build.make CMakeFiles/cmTC_f2682.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_338dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_338dc.dir/build.make CMakeFiles/cmTC_338dc.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2682.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_f2682.dir/feature_tests.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f2682
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2682.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_f2682.dir/feature_tests.c.o  -o cmTC_f2682 -rdynamic 
+Building C object CMakeFiles/cmTC_338dc.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_338dc.dir/feature_tests.c.o   -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_338dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_338dc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_338dc.dir/feature_tests.c.o  -o cmTC_338dc -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
@@ -207,28 +207,28 @@ make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e6cf0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e6cf0.dir/build.make CMakeFiles/cmTC_e6cf0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_84f30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84f30.dir/build.make CMakeFiles/cmTC_84f30.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e6cf0.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_e6cf0.dir/testCXXCompiler.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_e6cf0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6cf0.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_e6cf0.dir/testCXXCompiler.cxx.o  -o cmTC_e6cf0 -rdynamic 
+Building CXX object CMakeFiles/cmTC_84f30.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_84f30.dir/testCXXCompiler.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_84f30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84f30.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_84f30.dir/testCXXCompiler.cxx.o  -o cmTC_84f30 -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3d3b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3d3b.dir/build.make CMakeFiles/cmTC_e3d3b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_625d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_625d9.dir/build.make CMakeFiles/cmTC_625d9.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_e3d3b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d3b.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e3d3b -rdynamic  
+Building CXX object CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_625d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_625d9.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_625d9 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper
@@ -238,9 +238,9 @@ Thread model: posix
 gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e3d3b' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCVwPE9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_e3d3b /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e3d3b' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_625d9' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cchpK7Rh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_625d9 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_625d9' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
@@ -248,14 +248,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e3d3b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e3d3b.dir/build.make CMakeFiles/cmTC_e3d3b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_625d9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_625d9.dir/build.make CMakeFiles/cmTC_625d9.dir/build]
   ignore line: [make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_e3d3b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d3b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e3d3b -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_625d9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_625d9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_625d9 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper]
@@ -265,13 +265,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e3d3b' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCVwPE9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_e3d3b /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_625d9' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cchpK7Rh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_625d9 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccCVwPE9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchpK7Rh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -288,7 +288,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e3d3b] ==> ignore
+    arg [cmTC_625d9] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_e3d3b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_625d9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -326,14 +326,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d1835/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d1835.dir/build.make CMakeFiles/cmTC_d1835.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_19157/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19157.dir/build.make CMakeFiles/cmTC_19157.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d1835.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d1835.dir/feature_tests.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d1835
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1835.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d1835.dir/feature_tests.cxx.o  -o cmTC_d1835 -rdynamic 
+Building CXX object CMakeFiles/cmTC_19157.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_19157.dir/feature_tests.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_19157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19157.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_19157.dir/feature_tests.cxx.o  -o cmTC_19157 -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
@@ -399,14 +399,14 @@ make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76e82/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76e82.dir/build.make CMakeFiles/cmTC_76e82.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_50d99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50d99.dir/build.make CMakeFiles/cmTC_50d99.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76e82.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_76e82.dir/feature_tests.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_76e82
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76e82.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_76e82.dir/feature_tests.cxx.o  -o cmTC_76e82 -rdynamic 
+Building CXX object CMakeFiles/cmTC_50d99.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_50d99.dir/feature_tests.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_50d99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50d99.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_50d99.dir/feature_tests.cxx.o  -o cmTC_50d99 -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
@@ -472,14 +472,14 @@ make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42cb9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42cb9.dir/build.make CMakeFiles/cmTC_42cb9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bbe47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbe47.dir/build.make CMakeFiles/cmTC_bbe47.dir/build
 make[1]: Entering directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_42cb9.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_42cb9.dir/feature_tests.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_42cb9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42cb9.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_42cb9.dir/feature_tests.cxx.o  -o cmTC_42cb9 -rdynamic 
+Building CXX object CMakeFiles/cmTC_bbe47.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_bbe47.dir/feature_tests.cxx.o -c /home/pi/barcode-reader-opencv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bbe47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbe47.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_bbe47.dir/feature_tests.cxx.o  -o cmTC_bbe47 -rdynamic 
 make[1]: Leaving directory '/home/pi/barcode-reader-opencv/build/CMakeFiles/CMakeTmp'
 
 
