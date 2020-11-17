@@ -1,14 +1,20 @@
 # Barcode Reader OpenCV
 
+## Installing Zbar Libraries
+```
+sudo apt-get install libzbar-dev
+```
 
-clone 
-cd 
+## Installation
+```
+git clone https://github.com/rizgiak/barcode-reader-opencv.git
+cd barcode-reader-opencv
 mkdir build
 cd build
 cmake ..
 make
 ./barcode_reader
-
+```
 
 
 
