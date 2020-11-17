@@ -1,0 +1,3 @@
+/home/pi/barcode-reader-opencv/build/CMakeFiles/rebuild_cache.dir
+/home/pi/barcode-reader-opencv/build/CMakeFiles/edit_cache.dir
+/home/pi/barcode-reader-opencv/build/CMakeFiles/barcode_reader.dir
